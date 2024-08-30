@@ -5,12 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <header class = "flex">
         <h1>David Blackman</h1>
+        <nav aria-label = "Page Navigation">
+            <ul class = "flex">
+                <li>About Me</li>
+                <li>My Projects</li>
+                <li>Frontend Mentor Projects</li>
+                <li>freeCodeCamp Projects</li>
+                <li>Bootcamp Projects</li>
+            </ul>
+        </nav>
     </header>
-    
+
+    <main>
+        <h2>About Me</h2>
+        <h2>My Projects</h2>
+        <h2>Frontend Mentor Projects</h2>
+        <h2>freeCodeCamp Projects</h2>
+        <h2>Bootcamp Projects</h2>
+    </main>
+
+    <footer>
+        <ul aria-label="Link navigation" class = "flex external-links">
+            <li class = ><button><a class = "flex" href="https://github.com/defenstration" target="blank"><img src = "assets/github-mark/github-mark.png" alt = "Github Logo" >@defenstration</a></button></li>
+            <li class = ><button><a class = "flex" href="https://www.frontendmentor.io/profile/defenstration"><img src="/assets/favicon-32x32.png">@defenstration</a></button></li>
+            <li class = ><button><a class = "flex" href="https://www.freecodecamp.org/defenstration"><img src="assets/fcc_secondary_small.svg">fCC defenstration</a></button></li>
+            <li class = ><button><a class = "flex" href="https://www.linkedin.com/in/david-blackman-494212231/"><img src = "assets/LinkedIn-Logos/LI-In-Bug.png">David Blackman</a></button></li>
+            <li class = ><button><a class = "flex" href=""></a></button></li>
+        </ul>
+    </footer>
 
     <script src="script.js"></script>
 </body>

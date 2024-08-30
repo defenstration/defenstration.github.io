@@ -6,6 +6,10 @@
 :root {
 }
 
+/* Font - Plus Jakarta Sans       */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+
 /*--------------------------------*/
 /* Reset                          */
 /*--------------------------------*/
@@ -23,9 +27,9 @@ body, h1, h2, h3, h4, p, ul, ol {
 /* Set body                               */
 
 body {
-    font-family: 'Outfit', 'sans-serif';
-    width: 100vw;
-    min-width: 375px;
+    font-family: 'Plus Jakarta Sans', 'sans-serif';
+    width: 100%;
+    min-width: 320px;
     background-color:  hsl(var(--clr-stone100));
     line-height: 150%;
     letter-spacing: 0px;
@@ -71,8 +75,6 @@ img {
 
 .flex {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
@@ -84,7 +86,36 @@ img {
 /* Styling                        */
 /*--------------------------------*/
 
+* {
+    border: 1px solid black
+}
+
+h1 {
+    width: 300px;
+}
+
+header {
+    justify-content: space-evenly;
+}
+
+nav li, footer li {
+    list-style: none;
+    width: 9rem;
+}
+
+.external-links {
+    justify-content: space-around;
+}
+
+.external-links img {
+    height: 1.5rem;
+    width: 1.5rem
+}
 
 /*--------------------------------*/
 /* Styling for small screens      */
 /*--------------------------------*/
+
+@media (width < 1025) {
+
+}
